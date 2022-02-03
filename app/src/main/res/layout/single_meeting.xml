@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/meeting_post_main"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/singeMeetingProfilePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/placeholder_profile_picture"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/singleMeetingUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:text="Username"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/singeMeetingProfilePicture"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/singleMeetingKind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="Shoppen"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingPicture" />
+
+            <TextView
+                android:id="@+id/singleMeetingDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:text="Vor 2 Minuten"
+                app:layout_constraintStart_toEndOf="@+id/singeMeetingProfilePicture"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingUsername" />
+
+            <TextView
+                android:id="@+id/singleMeetingLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:text="Forum Gummersbach, Gummersbach"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingKind" />
+
+            <ImageView
+                android:id="@+id/singleMeetingPicture"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/singeMeetingProfilePicture"
+                app:srcCompat="@drawable/rectangle" />
+
+            <TextView
+                android:id="@+id/singleMeetingDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingPersonOne"
+                tools:text="Lorem ipsum dolor sit amet, soluta regione urbanitas vis in, qui elit populo ut. " />
+
+            <View
+                android:id="@+id/singleMeetingDevider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/light_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingDescription" />
+
+            <ImageView
+                android:id="@+id/singleMeetingButtonOne"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:padding="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingDevider"
+                app:srcCompat="@drawable/cerclebackgroundturcis" />
+
+            <ImageView
+                android:id="@+id/singleMeetingButtonThree"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:padding="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingDevider"
+                app:srcCompat="@drawable/cerclebackgroundturcis" />
+
+            <ImageView
+                android:id="@+id/singleMeetingButtonTwo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:padding="10dp"
+                app:layout_constraintEnd_toStartOf="@+id/singleMeetingButtonThree"
+                app:layout_constraintStart_toEndOf="@+id/singleMeetingButtonOne"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingDevider"
+                app:srcCompat="@drawable/cerclebackgroundturcis" />
+
+            <ImageView
+                android:id="@+id/singleMeetingPersonOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingLocation"
+                app:srcCompat="@drawable/ic_person_black_50_percent_24dp" />
+
+            <ImageView
+                android:id="@+id/singleMeetingPersonFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/singleMeetingPersonFour"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingLocation"
+                app:srcCompat="@drawable/ic_person_black_50_percent_24dp" />
+
+            <ImageView
+                android:id="@+id/singleMeetingPersonFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/singleMeetingPersonThree"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingLocation"
+                app:srcCompat="@drawable/ic_person_black_50_percent_24dp" />
+
+            <ImageView
+                android:id="@+id/singleMeetingPersonThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/singleMeetingPersonTwo"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingLocation"
+                app:srcCompat="@drawable/ic_person_black_50_percent_24dp" />
+
+            <ImageView
+                android:id="@+id/singleMeetingPersonTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/singleMeetingPersonOne"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingLocation"
+                app:srcCompat="@drawable/ic_person_black_50_percent_24dp" />
+
+            <TextView
+                android:id="@+id/singleMeetingTextViewRemember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Merken"
+                app:layout_constraintEnd_toEndOf="@+id/singleMeetingButtonThree"
+                app:layout_constraintStart_toStartOf="@+id/singleMeetingButtonThree"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingButtonThree" />
+
+            <TextView
+                android:id="@+id/singleMeetingTextViewRequest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anfrage stellen"
+                app:layout_constraintEnd_toEndOf="@+id/singleMeetingButtonTwo"
+                app:layout_constraintStart_toStartOf="@+id/singleMeetingButtonTwo"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingButtonTwo" />
+
+            <TextView
+                android:id="@+id/singleMeetingTextViewMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontaktieren"
+                app:layout_constraintEnd_toEndOf="@+id/singleMeetingButtonOne"
+                app:layout_constraintStart_toStartOf="@+id/singleMeetingButtonOne"
+                app:layout_constraintTop_toBottomOf="@+id/singleMeetingButtonOne" />
+
+            <ImageView
+                android:id="@+id/singleMeetingMessageSymbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/singleMeetingButtonOne"
+                app:layout_constraintEnd_toEndOf="@+id/singleMeetingButtonOne"
+                app:layout_constraintStart_toStartOf="@+id/singleMeetingButtonOne"
+                app:layout_constraintTop_toTopOf="@+id/singleMeetingButtonOne"
+                app:srcCompat="@drawable/ic_email_white_24dp" />
+
+            <ImageView
+                android:id="@+id/singleMeetingHeardSymbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/singleMeetingButtonTwo"
+                app:layout_constraintEnd_toEndOf="@+id/singleMeetingButtonTwo"
+                app:layout_constraintStart_toStartOf="@+id/singleMeetingButtonTwo"
+                app:layout_constraintTop_toTopOf="@+id/singleMeetingButtonTwo"
+                app:srcCompat="@drawable/ic_favorite_white_24dp" />
+
+            <ImageView
+                android:id="@+id/singleMeetingRememberSymbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/singleMeetingButtonThree"
+                app:layout_constraintEnd_toEndOf="@+id/singleMeetingButtonThree"
+                app:layout_constraintStart_toStartOf="@+id/singleMeetingButtonThree"
+                app:layout_constraintTop_toTopOf="@+id/singleMeetingButtonThree"
+                app:srcCompat="@drawable/baseline_bookmark_white_24dp" />
+
+            <ImageView
+                android:id="@+id/singleMeetingShareSymbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/singleMeetingPicture"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_share_black_50_percent_24dp" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

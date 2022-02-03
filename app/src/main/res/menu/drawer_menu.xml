@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Treffen">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_meetings"
+                    android:icon="@drawable/ic_compare_arrows_black_24dp"
+                    android:title="Ausstehende Treffen" />
+                <item
+                    android:id="@+id/nav_finished_meetings"
+                    android:icon="@drawable/ic_check_black_24dp"
+                    android:title="Abgeschlossene Treffen" />
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/ic_star_black_24dp"
+                    android:title="Treffen bewerten" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Soziales">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_send_black_24dp"
+                    android:title="Senden" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Einstellungen">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_edit_profile"
+                    android:icon="@drawable/ic_edit_black_24dp"
+                    android:title="Profil bearbeiten" />
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings_black_24dp"
+                    android:title="Allgemeine Einstellungen" />
+            </group>
+        </menu>
+    </item>
+</menu>

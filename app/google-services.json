@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "157753167849",
+    "firebase_url": "https://shopping-buddy-8ebe5.firebaseio.com",
+    "project_id": "shopping-buddy-8ebe5",
+    "storage_bucket": "shopping-buddy-8ebe5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157753167849:android:71d8b16416c3fbd9",
+        "android_client_info": {
+          "package_name": "com.moco.marvin.shoppingbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157753167849-gjsu9f8dkfpfr0s0g1tuad5jiuh997gm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moco.marvin.shoppingbuddy",
+            "certificate_hash": "f0dd7da0fe783b04e5f14f9ad49e27171d06ca16"
+          }
+        },
+        {
+          "client_id": "157753167849-fc8mnrbfl9glqkfdf1419kd7mh8rfjg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEGz9lIuIFlt9yqD8-4Y2VXF6jr3hlWzA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157753167849-fc8mnrbfl9glqkfdf1419kd7mh8rfjg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

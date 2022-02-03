@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="app_name">Shopping Buddy</string>
+    <string name="wocheneinkauf">Wocheneinkauf</string>
+    <string name="discounter_supermarkt">Discounter/Supermarkt</string>
+    <string name="shoppen">Shoppen</string>
+    <string name="einfach_nur_shoppen">Einfach nur Shoppen!</string>
+    <string name="alles_an_schuhe">Alles an Schuhe!</string>
+    <string name="schuhe">Schuhe</string>
+    <string name="alles_an_kleidung">Alles an Kleidung!</string>
+    <string name="kleidung">Kleidung</string>
+    <string name="alles_an_technik">Alles an Technik!</string>
+    <string name="technik">Technik</string>
+    <string name="alle_kategorien">Alle Kategorien</string>
+    <string name="alles">Alles</string>
+    <string name="weiter">Weiter</string>
+    <string name="aktivitätsangabe">Aktivitätsangabe</string>
+    <string name="ortsangabe">Ortsangabe</string>
+    <string name="verfügbare_anzeigen">Verfügbare Anzeigen</string>
+    <string name="edit_profile_edit_Profile">Profil bearbeiten</string>
+    <string name="edit_profile_log_out">Ausloggen</string>
+
+    <string name="navigation_view_item_create_meeting">Meeting erstellen</string>
+    <string name="navigation_view_item_meetings">Meetings</string>
+    <string name="navigation_view_item_messages">Nachrichten</string>
+    <string name="navigation_view_item_meetings_done">Abgeschlossene Meetings</string>
+    <string name="navigation_view_item_profile">Profil</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+</resources>
