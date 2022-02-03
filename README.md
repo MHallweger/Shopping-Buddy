@@ -1,2 +1,2 @@
 # Shopping-Buddy
-Android app to go shopping together with other people
+Android app that allows people to meet up for local shopping.
