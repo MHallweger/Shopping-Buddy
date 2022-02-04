@@ -2,10 +2,10 @@
 Android app that allows people to meet up for local shopping.
 
 ## Home-Dashboard
-![Home-Dashboard](images/home_activity.PNG)
+![Home-Dashboard](images/home_activity_fertig.PNG)
 
 ## Login-Screen
-![Login-Screen](images/login_activity.png)
+![Login-Screen](images/login_actvity.png)
 
 ## Registration-Screen
 ![Registration-Screen](images/register_activity.png)
@@ -20,4 +20,4 @@ Android app that allows people to meet up for local shopping.
 ![Create-Meeting-Screen](images/Next_Activity.PNG)
 
 ## Account-Settings-Screen
-![Account-Settings-Screen](images/profile_activity_einstellungen.PNG)
+![Account-Settings-Screen](images/profile_actvity_einstellungen.PNG)
